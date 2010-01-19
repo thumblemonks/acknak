@@ -41,7 +41,7 @@
         <div class="grid_10">
           <div id="comic">
             <h2><a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a></h2>
-            <img src="/images/comics/{{ comic.comic }}" height="{{ comic.height }}" width="{{ comic.width }}" alt="{{ comic.alt }}" />
+            <img src="/images/comics/{{ comic.comic }}" width="{{ comic.width }}" height="{{ comic.height }}" alt="{{ comic.alt }}" />
             <div class="caption">{{ comic.content }}</div>
             <div class="published">{{ comic.date | date: "%Y-%m-%d" }}</div>
           </div>
@@ -60,7 +60,7 @@
       </div>
 
       <div id="footer" class='grid_16 alpha omega'>
-        &copy; {{ site.time | date: "%Y" }} - Thumble Monks
+        &copy; {{ site.time | date: "%Y" }} - Thumble Monks (Justin Knowlden and Carl Brahms) - All right reserved
       </div>
 
       <script src="/javascripts/ga.js"></script>

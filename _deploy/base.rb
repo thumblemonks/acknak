@@ -22,7 +22,6 @@ end
 remote_task 'vlad:update_symlinks', :roles => :app do
   Rake::Task['deploy:symlink_configs'].invoke
 end
-# puts Rake.application.tasks.inspect
 
 desc "Deploys the latest set of code (use this most often)"
 task 'vlad:deploy' => ['vlad:update', 'vlad:cleanup']
