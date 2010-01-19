@@ -1,4 +1,5 @@
 .DS_Store
-_site/Rakefile
 _deploy/production.rb
+_site/Rakefile
 _site/public
+_site/README.markdown
