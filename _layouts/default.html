@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content='GROW UP' http-equiv='X-UA-Compatible' />
+    <meta content='width=960' name='viewport' />
+    <title>Ack &amp; Nak - {{ page.title }}</title>
+    <link href='/images/gusgus_icon.gif' rel='icon' />
+    <link href="http://feeds.feedburner.com/ackandnak" rel="alternate" title="Ack &amp; Nak" type="application/atom+xml" />
+    <!--link href='http://ackandnak.com/feed.xml' rel='alternate' title='Ack &amp; Nak' type='application/atom+xml' /-->
+    <link href="/stylesheets/base.css" type="text/css" media="screen" rel="stylesheet"/>
+    <link href="/stylesheets/site.css" type="text/css" media="screen" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <div class='container_16'>
+      <div id="header" class='grid_16 alpha omega'>
+        <div><a href="/" title="Ack &amp; Nak"><img src="/images/logo.png" alt="Ack &amp; Nak" /></a></div>
+        <div>New comics, ad nauseam</div>
+      </div>
+
+      <div id="content" class='grid_16 alpha omega'>
+        {% if page.comic %}
+          {% assign comic = page %}
+        {% else %}
+          {% assign comic = site.posts.first %}
+        {% endif %}
+
+        <div class="grid_3 alpha">
+          <div id="left" class="column">
+            <h3>Older Ones</h3>
+            {% if comic.previous %}
+              <a href="{{ comic.previous.url }}" title="{{ comic.previous.title }}">{{ comic.previous.title }}</a>
+            {% else %}
+              This is apparently the beginning of it all.
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="grid_10">
+          <div id="comic">
+            <h2><a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a></h2>
+            <img src="/images/comics/{{ comic.comic }}" height="{{ comic.height }}" width="{{ comic.width }}" alt="{{ comic.alt }}" />
+            <div class="caption">{{ comic.content }}</div>
+            <div class="published">{{ comic.date | date: "%Y-%m-%d" }}</div>
+          </div>
+        </div>
+
+        <div class="grid_3 omega">
+          <div id="right" class="column">
+            <h3>Newer Ones</h3>
+            {% if comic.next %}
+            <a href="{{ comic.next.url }}" title="{{ comic.next.title }}">{{ comic.next.title }}</a>
+            {% else %}
+              Hang out ... maybe one will show up
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div id="footer" class='grid_16 alpha omega'>
+        &copy; {{ site.time | date: "%Y" }} - Thumble Monks
+      </div>
+
+      <script src="/javascripts/ga.js"></script>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+a, a:visited { color: #555; }
+
+#header {
+  text-align: center; margin: 1em 0;
+}
+
+#content {
+  
+}
+
+#content .column {
+  padding: 1ex;
+}
+
+#content #comic {
+  border: 1px solid #aaa; background-color: #b6d4f2;
+  -webkit-border-radius: 8px; -moz-border-radius: 8px;
+  padding: 1ex; text-align: center;
+}
+
+#content #comic img { background-color: #fff; }
+#content #comic .caption { font-style: italic; }
+
+#footer {
+  text-align: center; margin: 1em 0; padding: 1ex;
+}
