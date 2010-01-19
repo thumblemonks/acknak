@@ -14,7 +14,7 @@ require "_deploy/#{to}"
 
 namespace :deploy do
   remote_task :symlink_configs, :roles => :app do
-    tracking_path = "public/javascripts/ga.js"
+    tracking_path = "_site/javascripts/ga.js"
     run "ln -nfs #{shared_path}/#{tracking_path} #{latest_release}/#{tracking_path}"
   end
 end
@@ -22,6 +22,7 @@ end
 remote_task 'vlad:update_symlinks', :roles => :app do
   Rake::Task['deploy:symlink_configs'].invoke
 end
+# puts Rake.application.tasks.inspect
 
 desc "Deploys the latest set of code (use this most often)"
 task 'vlad:deploy' => ['vlad:update', 'vlad:cleanup']
