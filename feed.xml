@@ -24,7 +24,10 @@ layout: nil
    <link href="http://ackandnak.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://ackandnak.com{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+     <img src="/images/comics/{{ post.comic }}" width="{{ post.width }}" height="{{ post.height }}" alt="{{ post.alt }}" title="{{ post.alt }}" />
+     <div class="caption">{{ post.content | xml_escape }}</div>
+   </content>
  </entry>
  {% endfor %}
  
