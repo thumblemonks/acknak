@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Ack &amp; Nak - Everything but no mayo</title>
+ <link href="http://ackandnak.com/feed.xml" rel="self"/>
+ <link href="http://ackandnak.com/"/>
+ <updated>2010-01-21T09:07:21-06:00</updated>
+ <id>http://ackandnak.com/</id>
+ <author>
+   <name>Justin Knowlden</name>
+   <email>gus@gusg.us</email>
+ </author>
+ <author>
+   <name>Carl Brahms</name>
+   <email>carl.brahms@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Age vs. Perception of Reality</title>
+   <link href="http://ackandnak.com/comics/age-vs-perception-of-reality.html"/>
+   <updated>2010-01-20T00:00:00-06:00</updated>
+   <id>http://ackandnak.com/comics/age-vs-perception-of-reality</id>
+   <content type="html">Just when you think you're getting ... nope, you lost it.
+</content>
+ </entry>
+ 
+ 
+</feed>
