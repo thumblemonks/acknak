@@ -1,34 +1,27 @@
 ---
 layout: nil
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Ack &amp; Nak - Everything but no mayo</title>
- <link href="http://ackandnak.com/feed.xml" rel="self"/>
- <link href="http://ackandnak.com/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://ackandnak.com/</id>
- <author>
-   <name>Justin Knowlden</name>
-   <email>gus@gusg.us</email>
- </author>
- <author>
-   <name>Carl Brahms</name>
-   <email>carl.brahms@gmail.com</email>
- </author>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+  <channel>
+    <title>Ack &amp; Nak</title>
+    <link>http://ackandnak.com/</link>
+    <description>New web comics, ad nauseam</description>
+    <language>en-us</language>
+    <copyright>Copyright {{ site.time | date: "%Y" }} - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
+    <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
+    <ttl>40</ttl>
 
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title | xml_escape }}</title>
-   <link href="http://ackandnak.com{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://ackandnak.com{{ post.id }}</id>
-   <content type="html">
-     <img src="/images/comics/{{ post.comic }}" width="{{ post.width }}" height="{{ post.height }}" alt="{{ post.alt }}" title="{{ post.alt }}" />
-     <div class="caption">{{ post.content | xml_escape }}</div>
-   </content>
- </entry>
- {% endfor %}
- 
-</feed>
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <description>
+        &lt;img src="/images/comics/{{ post.comic }}" width="{{ post.width }}" height="{{ post.height }}" alt="{{ post.alt }}" title="{{ post.alt }}" /&gt;
+        &lt;div class="caption"&gt;{{ post.content | xml_escape }}&lt;/div&gt;
+      </description>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+      <guid>http://ackandnak.com{{ post.id }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

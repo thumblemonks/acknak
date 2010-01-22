@@ -1,32 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Ack &amp; Nak - Everything but no mayo</title>
- <link href="http://ackandnak.com/feed.xml" rel="self"/>
- <link href="http://ackandnak.com/"/>
- <updated>2010-01-21T09:14:34-06:00</updated>
- <id>http://ackandnak.com/</id>
- <author>
-   <name>Justin Knowlden</name>
-   <email>gus@gusg.us</email>
- </author>
- <author>
-   <name>Carl Brahms</name>
-   <email>carl.brahms@gmail.com</email>
- </author>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+  <channel>
+    <title>Ack &amp; Nak</title>
+    <link>http://ackandnak.com/</link>
+    <description>New web comics, ad nauseam</description>
+    <language>en-us</language>
+    <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
+    <lastBuildDate>Thu, 21 Jan 2010 19:13:36 CST</lastBuildDate>
+    <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
+    <ttl>40</ttl>
 
- 
- <entry>
-   <title>Age vs. Perception of Reality</title>
-   <link href="http://ackandnak.com/comics/age-vs-perception-of-reality.html"/>
-   <updated>2010-01-20T00:00:00-06:00</updated>
-   <id>http://ackandnak.com/comics/age-vs-perception-of-reality</id>
-   <content type="html">
-     <img src="/images/comics/age-vs-perception-of-reality.png" width="448" height="288" alt="Pretty sure my son will be unhappy about this, but his perception of reality is already off the charts ;)" title="Pretty sure my son will be unhappy about this, but his perception of reality is already off the charts ;)" />
-     <div class="caption">Just when you think you're getting it ... nope, you lost it.
-</div>
-   </content>
- </entry>
- 
- 
-</feed>
+    
+    <item>
+      <title>Age vs. Perception of Reality</title>
+      <description>
+        &lt;img src="/images/comics/age-vs-perception-of-reality.png" width="448" height="288" alt="Pretty sure my son will be unhappy about this, but his perception of reality is already off the charts ;)" title="Pretty sure my son will be unhappy about this, but his perception of reality is already off the charts ;)" /&gt;
+        &lt;div class="caption"&gt;Just when you think you're getting it ... nope, you lost it.
+&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 20 Jan 2010 00:00:00 CST</pubDate>
+      <guid>http://ackandnak.com/comics/age-vs-perception-of-reality</guid>
+    </item>
+    
+  </channel>
+</rss>
