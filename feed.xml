@@ -1,7 +1,7 @@
 ---
 layout: nil
 ---
-<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+<rss version="2.0">
   <channel>
     <title>Ack &amp; Nak</title>
     <link>http://ackandnak.com/</link>

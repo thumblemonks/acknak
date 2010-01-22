@@ -1,11 +1,11 @@
-<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+<rss version="2.0">
   <channel>
     <title>Ack &amp; Nak</title>
     <link>http://ackandnak.com/</link>
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 21 Jan 2010 19:13:36 CST</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jan 2010 19:32:29 CST</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
