@@ -4,9 +4,9 @@
   <head>
     <meta content='GROW UP' http-equiv='X-UA-Compatible' />
     <meta content='width=960' name='viewport' />
-    <meta content='{{ page.description }}' name='description' />
-    <meta content='ack and nak, ack nak, web comic, comic, {{ page.keywords }}' name='keywords' />
-    <title>Ack &amp; Nak - {{ page.title }}</title>
+    <meta content='An illustration of just how much of a joke the SyFy channel is' name='description' />
+    <meta content='ack and nak, ack nak, web comic, comic, syfy, syfy sucks, sigh, syfy movie captions' name='keywords' />
+    <title>Ack &amp; Nak - Syfy Sigh</title>
     <link href='/images/gusgus_icon.gif' rel='icon' />
     <link href="http://feeds.feedburner.com/ackandnak" rel="alternate" title="Ack &amp; Nak" type="application/atom+xml" />
     <link href="/stylesheets/base.css" type="text/css" media="screen" rel="stylesheet"/>
@@ -22,46 +22,43 @@
       </div>
 
       <div id="content" class='grid_16 alpha omega'>
-        {% if page.comic %}
-          {% assign comic = page %}
-        {% else %}
-          {% assign comic = site.posts.first %}
-        {% endif %}
+        
+          
+        
 
         <div class="grid_3 alpha">
           <div id="left" class="column">
             <h3>Older Ones</h3>
-            {% if comic.previous %}
-              <a href="{{ comic.previous.url }}" title="{{ comic.previous.title }}">{{ comic.previous.title }}</a>
-            {% else %}
-              This is apparently the beginning of it all.
-            {% endif %}
+            
+              <a href="/comics/age-vs-perception-of-reality.html" title="Age vs. Perception of Reality">Age vs. Perception of Reality</a>
+            
           </div>
         </div>
 
         <div class="grid_10">
           <div id="comic">
-            <h2><a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a></h2>
-            <img src="/images/comics/{{ comic.comic }}" width="{{ comic.width }}" height="{{ comic.height }}" alt="{{ comic.alt }}" title="{{ comic.alt }}" />
-            <div class="caption">{{ comic.content }}</div>
-            <div class="published">{{ comic.date | date: "%Y-%m-%d" }}</div>
+            <h2><a href="/comics/syfy-sigh.html" title="Syfy Sigh">Syfy Sigh</a></h2>
+            <img src="/images/comics/syfy-sigh.png" width="476" height="498" alt="Snakes on a submarine with Luke Perry is an all time favorite" title="Snakes on a submarine with Luke Perry is an all time favorite" />
+            <div class="caption"><p>I mean seriously, can they just stop doing this? This is horrible. Doctor Who - remake. Highlander as a series - remake. Dune - remake. This Dune remake thing they did really pissed me off. It was the worst thing I had ever never finished seeing. Couldn't get past the first 10 minutes, which included that fat guy from Beetleguice who was never a good actor.</p>
+
+<p>As a friend is so fond of saying, "if it's not worth doing right, it's not worth doing".</p>
+</div>
+            <div class="published">2010-02-03</div>
           </div>
         </div>
 
         <div class="grid_3 omega">
           <div id="right" class="column">
             <h3>Newer Ones</h3>
-            {% if comic.next %}
-            <a href="{{ comic.next.url }}" title="{{ comic.next.title }}">{{ comic.next.title }}</a>
-            {% else %}
+            
               Hang out ... maybe one will show up
-            {% endif %}
+            
           </div>
         </div>
       </div>
 
       <div id="footer" class='grid_16 alpha omega'>
-        &copy; {{ site.time | date: "%Y" }}
+        &copy; 2010
         - Thumble Monks (<a href="http://gusg.us/">Justin Knowlden</a> and Carl Brahms)
         - All rights reserved
       </div>

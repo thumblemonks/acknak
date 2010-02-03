@@ -11,6 +11,7 @@ a, a:visited { color: #555; }
   padding: 1ex; text-align: center;
 }
 #content #comic img { background-color: #fff; }
+#content #comic p { margin: 0; padding: 1ex 0; }
 #content #comic .caption { font-style: italic; }
 
 #footer { text-align: center; margin: 1em 0; padding: 1ex; }
