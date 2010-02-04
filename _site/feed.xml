@@ -5,10 +5,20 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Wed, 03 Feb 2010 09:31:16 CST</lastBuildDate>
+    <lastBuildDate>Thu, 04 Feb 2010 11:17:52 CST</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Ambivalence</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/ambivalent-life.png" width="277" height="411" alt="Nak interrupted" title="Nak interrupted" /&gt;
+        &lt;div class="caption"&gt;&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 04 Feb 2010 00:00:00 CST</pubDate>
+      <guid>http://ackandnak.com/comics/ambivalent-life</guid>
+    </item>
     
     <item>
       <title>Syfy Sigh</title>
