@@ -22,42 +22,7 @@
       </div>
 
       <div id="content" class='grid_16 alpha omega'>
-        {% if page.comic %}
-          {% assign comic = page %}
-        {% else %}
-          {% assign comic = site.posts.first %}
-        {% endif %}
-
-        <div class="grid_3 alpha">
-          <div id="left" class="column">
-            <h3>Older Ones</h3>
-            {% if comic.previous %}
-              <a href="{{ comic.previous.url }}" title="{{ comic.previous.title }}">{{ comic.previous.title }}</a>
-            {% else %}
-              This is apparently the beginning of it all.
-            {% endif %}
-          </div>
-        </div>
-
-        <div class="grid_10">
-          <div id="comic">
-            <h2><a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a></h2>
-            <img src="/images/comics/{{ comic.comic }}" width="{{ comic.width }}" height="{{ comic.height }}" alt="{{ comic.alt }}" title="{{ comic.alt }}" />
-            <div class="caption">{{ comic.content }}</div>
-            <div class="published">{{ comic.date | date: "%Y-%m-%d" }}</div>
-          </div>
-        </div>
-
-        <div class="grid_3 omega">
-          <div id="right" class="column">
-            <h3>Newer Ones</h3>
-            {% if comic.next %}
-            <a href="{{ comic.next.url }}" title="{{ comic.next.title }}">{{ comic.next.title }}</a>
-            {% else %}
-              Hang out ... maybe one will show up
-            {% endif %}
-          </div>
-        </div>
+        {{ content }}
       </div>
 
       <div id="footer" class='grid_16 alpha omega'>

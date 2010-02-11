@@ -1,0 +1,16 @@
+---
+layout: default
+title: Ack &amp; Nak Web Comic Archives
+description: Ack &amp; Nak web comics going waaaaaaaaaaaay back
+keywords: archives
+---
+
+<h1>Archives</h1>
+<ul>
+{% for comic in site.posts %}
+  <li>
+    {{ comic.date | date: "%Y-%m-%d"}} - 
+    <a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a>
+  </li>
+{% endfor %}
+</ul>

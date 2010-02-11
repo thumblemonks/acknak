@@ -3,4 +3,5 @@ layout: default
 title: Everything but no mayo
 ---
 
-I'm your hero
+{% assign comic = site.posts.first %}
+{% include comic.html %}
