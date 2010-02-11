@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Tue, 09 Feb 2010 09:05:12 CST</lastBuildDate>
+    <lastBuildDate>Wed, 10 Feb 2010 23:07:10 CST</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Your Code Smells</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/Your-code-smells.png" width="500" height="437" alt="And so does your perfume" title="And so does your perfume" /&gt;
+        &lt;div class="caption"&gt;No offense. I'm just sayin'. Know what I mean?
+&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 CST</pubDate>
+      <guid>http://ackandnak.com/comics/your-code-smells</guid>
+    </item>
     
     <item>
       <title>Physiological Effects of Promoting</title>
