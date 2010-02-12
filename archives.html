@@ -5,12 +5,16 @@ description: Ack &amp; Nak web comics going waaaaaaaaaaaay back
 keywords: archives
 ---
 
-<h1>Archives</h1>
-<ul>
-{% for comic in site.posts %}
-  <li>
-    {{ comic.date | date: "%Y-%m-%d"}} - 
-    <a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<div class="prefix_3 grid_13 alpha omega">
+  <div id="archives">
+    <h1>Archives</h1>
+    <ul>
+    {% for comic in site.posts %}
+      <li>
+        {{ comic.date | date: "%Y-%m-%d"}} - 
+        <a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

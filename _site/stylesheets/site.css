@@ -1,17 +1,44 @@
-a, a:visited { color: #555; }
+/* -webkit-border-radius; -moz-border-radius; border-radius */
 
-#header { text-align: center; margin: 1em 0; }
-#header .punchline { padding: 1ex 0; font-size: 125%; color: #555; }
+body { font: normal 1em/1.5em Georgia, serif;}
+
+a { text-decoration: none; color: #567492; }
+a:visited { color: #567492; }
+a:hover { text-decoration: underline; }
+
+#header { margin: 1ex 0; }
+#header .punchline { margin: 1ex 0; padding: 1ex 0 0 0; border-top: 1px solid #eee; text-align: right; }
 
 #content {}
-#content .column { padding: 1ex; }
-#content #comic {
-  border: 1px solid #aaa; background-color: #b6d4f2;
-  -webkit-border-radius: 8px; -moz-border-radius: 8px;
-  padding: 1ex; text-align: center;
-}
-#content #comic img { background-color: #fff; }
-#content #comic p { margin: 0; padding: 1ex 0; }
-#content #comic .caption { font-style: italic; }
 
-#footer { text-align: center; margin: 1em 0; padding: 1ex; }
+#content h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 185%;
+}
+
+#content #navigation {
+  position: fixed; padding: 0.5ex 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.75); border: 1px solid #eee; z-index: 3;
+  -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+}
+
+#content #navigation a, #content #navigation a:visited { color: #567492; }
+#content #navigation .nav { padding: 0 1ex; font-size: 150%; }
+#content #navigation .nav.inaccessible { color: #aaa; }
+#content #navigation .nav.archives { font-size: 80%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+#content #about { padding-top: 1em; margin-top: 4em; }
+#content #about .caption { font-style: italic; }
+#content #about .published { color: #888; }
+
+#content #comic {}
+#content #comic img { background-color: #fff; }
+
+#content #archives {}
+#content #archives li { list-style: none; padding: 0; margin: 0;}
+#content #archives a:visited { color: #888; }
+
+#footer { font-size: 90%; margin: 1em 0; }
+#footer #disclaimer { border-top: 1px solid #eee; padding: 0.5ex 0 2em 0; }
