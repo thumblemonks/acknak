@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 11 Feb 2010 23:39:28 CST</lastBuildDate>
+    <lastBuildDate>Fri, 12 Feb 2010 00:18:59 CST</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Nose Candy</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/nose-candy.png" width="700" height="500" alt="Eat it. Don't wait. Take it allllll!" title="Eat it. Don't wait. Take it allllll!" /&gt;
+        &lt;div class="caption"&gt;It's about you. It's about me. It's about the American culture. But mostly it's about being too literal.
+&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 11 Feb 2010 00:00:00 CST</pubDate>
+      <guid>http://ackandnak.com/comics/nose-candy</guid>
+    </item>
     
     <item>
       <title>Your Code Smells</title>
