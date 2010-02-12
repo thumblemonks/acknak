@@ -7,7 +7,7 @@ a:visited { color: #567492; }
 a:hover { text-decoration: underline; }
 
 #header { margin: 1ex 0; }
-#header .punchline { margin: 1ex 0; padding: 1ex 0 0 0; border-top: 1px solid #eee; text-align: right; }
+#header .punchline { margin: 1ex 0; padding: 1ex 0; border-top: 1px solid #eee; }
 
 #content {}
 
