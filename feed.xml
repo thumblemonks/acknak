@@ -20,7 +20,7 @@ layout: nil
         &lt;div class="caption"&gt;{{ post.content | xml_escape }}&lt;/div&gt;
       </description>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
-      <guid>http://ackandnak.com{{ post.id }}</guid>
+      <guid>http://ackandnak.com{{ post.id }}.html</guid>
     </item>
     {% endfor %}
   </channel>

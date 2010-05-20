@@ -5,7 +5,7 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 20 May 2010 15:51:15 CDT</lastBuildDate>
+    <lastBuildDate>Thu, 20 May 2010 17:06:50 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
@@ -18,7 +18,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Thu, 20 May 2010 00:00:00 CDT</pubDate>
-      <guid>http://ackandnak.com/comics/fish-and-dips</guid>
+      <guid>http://ackandnak.com/comics/fish-and-dips.html</guid>
     </item>
     
     <item>
@@ -29,7 +29,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Tue, 16 Feb 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/political-reading</guid>
+      <guid>http://ackandnak.com/comics/political-reading.html</guid>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Thu, 11 Feb 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/nose-candy</guid>
+      <guid>http://ackandnak.com/comics/nose-candy.html</guid>
     </item>
     
     <item>
@@ -51,7 +51,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Wed, 10 Feb 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/your-code-smells</guid>
+      <guid>http://ackandnak.com/comics/your-code-smells.html</guid>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Tue, 09 Feb 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/physiological-effects-of-promoting</guid>
+      <guid>http://ackandnak.com/comics/physiological-effects-of-promoting.html</guid>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
         &lt;div class="caption"&gt;&lt;/div&gt;
       </description>
       <pubDate>Thu, 04 Feb 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/ambivalent-life</guid>
+      <guid>http://ackandnak.com/comics/ambivalent-life.html</guid>
     </item>
     
     <item>
@@ -83,7 +83,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Wed, 03 Feb 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/syfy-sigh</guid>
+      <guid>http://ackandnak.com/comics/syfy-sigh.html</guid>
     </item>
     
     <item>
@@ -94,7 +94,7 @@
 &lt;/div&gt;
       </description>
       <pubDate>Wed, 20 Jan 2010 00:00:00 CST</pubDate>
-      <guid>http://ackandnak.com/comics/age-vs-perception-of-reality</guid>
+      <guid>http://ackandnak.com/comics/age-vs-perception-of-reality.html</guid>
     </item>
     
   </channel>
