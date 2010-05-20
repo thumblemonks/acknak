@@ -3,57 +3,64 @@
   
   <url>
     <loc>http://ackandnak.com/</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
  
   
   <url>
+    <loc>http://ackandnak.com/comics/fish-and-dips.html</loc>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://ackandnak.com/comics/political-reading.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://ackandnak.com/comics/nose-candy.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://ackandnak.com/comics/your-code-smells.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://ackandnak.com/comics/physiological-effects-of-promoting.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://ackandnak.com/comics/ambivalent-life.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://ackandnak.com/comics/syfy-sigh.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://ackandnak.com/comics/age-vs-perception-of-reality.html</loc>
-    <lastmod>2010-02-16T20:11:41-06:00</lastmod>
+    <lastmod>2010-05-20T15:51:15-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
