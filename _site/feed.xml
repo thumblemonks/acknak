@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 20 May 2010 17:06:50 CDT</lastBuildDate>
+    <lastBuildDate>Thu, 20 May 2010 21:51:30 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Everything but no mayo</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/everything-but-no-mayo.png" width="700" height="979" alt="L* is for Logician, which is good enough for me" title="L* is for Logician, which is good enough for me" /&gt;
+        &lt;div class="caption"&gt;This is exactly the reason why logicians will never work as sandwich builders.
+&lt;/div&gt;
+      </description>
+      <pubDate>Fri, 21 May 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/everything-but-no-mayo.html</guid>
+    </item>
     
     <item>
       <title>Fish and Dips</title>
