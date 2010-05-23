@@ -14,8 +14,8 @@ require "_deploy/#{to}"
 
 namespace :deploy do
   remote_task :symlink_configs, :roles => :app do
-    tracking_path = "javascripts/ga.js"
-    run "ln -nfs #{shared_path}/public/#{tracking_path} #{latest_release}/_site/#{tracking_path}"
+    run "mkdir #{latest_release}/_site/javascripts"
+    run "ln -nfs #{shared_path}/public/javascripts/ga.js #{latest_release}/_site/javascripts/ga.js"
   end
 end
 
