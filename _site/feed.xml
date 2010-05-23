@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 20 May 2010 21:51:30 CDT</lastBuildDate>
+    <lastBuildDate>Sat, 22 May 2010 20:01:37 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Office Chair Blues</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/office-chair.jpg" width="700" height="816" alt="If he sang a song, what would he sing?" title="If he sang a song, what would he sing?" /&gt;
+        &lt;div class="caption"&gt;No means no. Even for office equipment.
+&lt;/div&gt;
+      </description>
+      <pubDate>Sat, 22 May 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/office-chair-blues.html</guid>
+    </item>
     
     <item>
       <title>Everything but no mayo</title>
