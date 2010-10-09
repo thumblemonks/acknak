@@ -10,10 +10,12 @@ keywords: archives
     <h1>Archives</h1>
     <ul>
     {% for comic in site.posts %}
+      {% if comic.published %}
       <li>
         {{ comic.date | date: "%Y-%m-%d"}} - 
         <a href="{{ comic.url }}" title="{{ comic.title }}">{{ comic.title }}</a>
       </li>
+      {% endif %}
     {% endfor %}
     </ul>
   </div>
