@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Sat, 09 Oct 2010 13:41:09 CDT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Oct 2010 18:17:40 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Don't Sweat the Technique</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/your-mom-technique.jpg" width="700" height="700" alt="Say it ... ohhhhhh, snap!" title="Say it ... ohhhhhh, snap!" /&gt;
+        &lt;div class="caption"&gt;You know you were thinking the same thing. Don't deny it.
+&lt;/div&gt;
+      </description>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/dont-sweat-the-technique.html</guid>
+    </item>
     
     <item>
       <title>Whatcha Doing?</title>
