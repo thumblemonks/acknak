@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Sun, 10 Oct 2010 20:19:48 CDT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Oct 2010 22:03:28 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Theatre &amp;amp; Wrestling</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/theatre-wrestling.jpg" width="700" height="385" alt="No joke, I wrestled a girl once. Not as exciting as you might think." title="No joke, I wrestled a girl once. Not as exciting as you might think." /&gt;
+        &lt;div class="caption"&gt;It's true. Lycra is very form fitting.
+&lt;/div&gt;
+      </description>
+      <pubDate>Tue, 12 Oct 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/theatre-wrestling.html</guid>
+    </item>
     
     <item>
       <title>Don't Sweat the Technique</title>
