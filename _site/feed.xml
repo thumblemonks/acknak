@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Mon, 11 Oct 2010 22:03:28 CDT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Oct 2010 16:24:13 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Finnegan's Nap</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/finnegans-nap.jpg" width="700" height="700" alt="It's a book. When was the last time you read one? Go read one now!" title="It's a book. When was the last time you read one? Go read one now!" /&gt;
+        &lt;div class="caption"&gt;I'm not sure where they are. It's like a cubicle with a bean bag in it. A napicle?
+&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 14 Oct 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/finnegans-nap.html</guid>
+    </item>
     
     <item>
       <title>Theatre &amp;amp; Wrestling</title>
