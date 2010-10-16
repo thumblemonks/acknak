@@ -5,10 +5,21 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 14 Oct 2010 16:24:13 CDT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Oct 2010 22:13:58 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>You do realize ...</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/you-do-realize.jpg" width="700" height="700" alt="Blasphemy? What's that? Not in my vocabulary." title="Blasphemy? What's that? Not in my vocabulary." /&gt;
+        &lt;div class="caption"&gt;It's really just a question of form over function. Different strokes for different folks.
+&lt;/div&gt;
+      </description>
+      <pubDate>Sat, 16 Oct 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/you-do-realize.html</guid>
+    </item>
     
     <item>
       <title>Finnegan's Nap</title>
