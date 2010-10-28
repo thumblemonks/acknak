@@ -5,10 +5,20 @@
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
     <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Thu, 21 Oct 2010 22:52:52 CDT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Oct 2010 22:00:56 CDT</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Odd Animals: The Lardosaur</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/lardosaur.jpg" width="700" height="435" alt="" title="" /&gt;
+        &lt;div class="caption"&gt;This odd animal was apparently born with all the fat it would ever need. It's a giant self-feeding egg. But it sure is cute!&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 27 Oct 2010 00:00:00 CDT</pubDate>
+      <guid>http://ackandnak.com/comics/lardosaur.html</guid>
+    </item>
     
     <item>
       <title>Snap, Crackle, Pop</title>
