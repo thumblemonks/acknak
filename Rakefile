@@ -16,11 +16,19 @@ namespace :sitemap do
   end
 end
 
-begin
-  require 'vlad' # But we really mean gabrielg-vlad
-  require 'vlad/core'
-  require 'vlad/git'
-  require '_deploy/base.rb'
-rescue LoadError => e
-  puts "Unable to load Vlad the Deployer - #{e.message}."
+#
+# Deploying the codebase
+
+desc "Deploy latest code to a specific environment. eg: rake deploy[environment-name]"
+task :deploy, :env do |t, args|
+  require "./_deploy/#{args[:env] || 'production'}"
 end
+
+#begin
+#  require 'vlad' # But we really mean gabrielg-vlad
+#  require 'vlad/core'
+#  require 'vlad/git'
+#  require '_deploy/base.rb'
+#rescue LoadError => e
+#  puts "Unable to load Vlad the Deployer - #{e.message}."
+#end

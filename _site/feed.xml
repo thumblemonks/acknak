@@ -4,11 +4,22 @@
     <link>http://ackandnak.com/</link>
     <description>New web comics, ad nauseam</description>
     <language>en-us</language>
-    <copyright>Copyright 2010 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
-    <lastBuildDate>Sat, 30 Oct 2010 22:13:56 CDT</lastBuildDate>
+    <copyright>Copyright 2011 - Thumble Monks (Justin Knowlden and Carl Brahms)</copyright>
+    <lastBuildDate>Sun, 18 Dec 2011 00:02:34 CST</lastBuildDate>
     <generator>Ack &amp; Nak Custom Feed Robot, Eat Me</generator>
     <ttl>40</ttl>
 
+    
+    <item>
+      <title>Goodbye Christopher</title>
+      <description>
+        &lt;img src="http://ackandnak.com/images/comics/goodbye-christopher.jpg" width="700" height="536" alt="It was a pleasure" title="It was a pleasure" /&gt;
+        &lt;div class="caption"&gt;Of all the people I have never met, I will miss you most of all.
+&lt;/div&gt;
+      </description>
+      <pubDate>Sat, 17 Dec 2011 00:00:00 CST</pubDate>
+      <guid>http://ackandnak.com/comics/goodbye-christopher.html</guid>
+    </item>
     
     <item>
       <title>Emotional Piñata</title>
